@@ -10,13 +10,13 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         marginBottom: 24,
         fontFamily: theme.fonts.medium,
-        color: theme.colors.text_primary
+        color: theme.colors.text_primary,
     },
     image: {
         width: 36,
         height: 36,
         marginTop: 42,
-        marginBottom: 10
+        marginBottom: 10,
     },
     button: {
         height: 40,
@@ -25,11 +25,11 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         paddingHorizontal: 24,
-        marginBottom: 56
+        marginBottom: 56,
     },
     buttonTitle: {
         fontSize: 14,
         fontFamily: theme.fonts.medium,
-        color: theme.colors.text_primary
+        color: theme.colors.text_primary,
     }
 })

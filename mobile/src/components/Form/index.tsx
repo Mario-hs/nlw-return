@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, TextInput, Image, Text, TouchableOpacity } from "react-native";
+import { View, TextInput, Image, Text, TouchableOpacity, KeyboardAvoidingView, Platform } from "react-native";
 import { ArrowLeft } from "phosphor-react-native";
 import { captureScreen } from "react-native-view-shot";
 import * as FileSytem from 'expo-file-system';

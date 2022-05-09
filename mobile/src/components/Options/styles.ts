@@ -10,12 +10,12 @@ export const styles = StyleSheet.create({
         width: '100%',
         marginBottom: 48,
         flexDirection: 'row',
-        justifyContent: "center"
+        justifyContent: "center",
     },
     title: {
         fontSize: 20,
         marginBottom: 32,
         fontFamily: theme.fonts.medium,
-        color: theme.colors.text_primary
+        color: theme.colors.text_primary,
     }
 })

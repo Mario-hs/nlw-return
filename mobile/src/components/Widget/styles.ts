@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         position: "absolute",
         right: 16,
-        bottom: getBottomSpace() + 16
+        bottom: getBottomSpace() + 16,
     },
     modal: {
         backgroundColor: theme.colors.surface_primary,
@@ -20,6 +20,6 @@ export const styles = StyleSheet.create({
     },
     indicator: {
         backgroundColor: theme.colors.text_primary,
-        width: 56
+        width: 56,
     }
 })
